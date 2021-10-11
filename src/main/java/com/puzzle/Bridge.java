@@ -22,7 +22,7 @@ public class Bridge {
   }
 
   public static int findSmallest(List<Integer> list) {
-//    return 6;
+//    return list.get(0);
     int smallest = list.get(0);
     for (int i = 1; i < list.size(); i++) {
       if (smallest > list.get(i)) {
